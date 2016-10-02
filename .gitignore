@@ -1,5 +1,4 @@
 *.html
-!template_header.html
 *.exe
 *.zip
 *.xz
