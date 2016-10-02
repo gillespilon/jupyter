@@ -1,4 +1,4 @@
-% Notebook development guide
+# Notebook development guide
 
 # In brevi #
 
