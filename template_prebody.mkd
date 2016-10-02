@@ -1,4 +1,0 @@
-<!--
-<p><span style="color:#CBC7BF; font-size: 0.75em;">TOUCH the ~ key to switch between one-page-at-a-time and 
-all-pages-at-once.</span></p>
--->
