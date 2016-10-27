@@ -1,0 +1,448 @@
+% Module template
+
+<p><a href=""><span style="color:#00247D;">e</span><span style="color:#CF142B;">n</span></a> | <a href=""><span style="color:#AA151B;">e</span><span style="color:#F1BF00;">s</span></a> | <a href=""><span style="color:#0055A4;">f</span><span style="color:#EF4125;">r</span></a></p>
+
+<span class="witty">“On target with minimum variation, reliably and predictably.”</span><br/>
+<span class="quotecaption">A wise MBB</span>
+
+<div class="slide">
+<h1 id="in-brevi">In brevi</h1>
+<p>This module is my generic module template.</p>
+<p>Introductory text about the module. The bullet list is the list of deliverables for the module unless a specific list of deliverables is required.</p>
+<p>In this module we consider:</p>
+<ul>
+<li><a href="#basic-unit">Basic unit</a>.</li>
+<li><a href="#list">List</a>.</li>
+<li><a href="#images">Images</a>.</li>
+<li><a href="#equations">Equations</a>.</li>
+<li><a href="#text">Text</a>.</li>
+<li><a href="#citations">Citations</a>.</li>
+<li><a href="#table">Table</a>.</li>
+<li><a href="#links">Links</a>.</li>
+<li><a href="#code">Code</a>.</li>
+<li><a href="#lesson-plan">Lesson plan</a>.</li>
+<li><a href="#notes">Notes</a>.</li>
+<li><a href="#references">References</a>.</li>
+<li><a href="#colophon">Colophon</a>.</li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="basic-unit">Basic unit</h1>
+<p>A basic unit is any one of these:</p>
+<ul>
+<li>Paragraph of text.</li>
+<li>Paragraph of text + two or more bullets.</li>
+<li>Paragraph of text + image + caption.</li>
+<li>Paragraph of text + table (includes title + caption).</li>
+</ul>
+<p>When editing existing material or write new material, identify the level and add a comment line before the basic unit. In future all new material will be written at a unit level, not a module level.</p>
+<p>Start each assembled module of basic units with this code:</p>
+<pre><code>    % module name&mdash;abbreviation</code></pre>
+<p>Add one of the following lines, within comment delimeters.</p>
+<pre><code>    &lt;!-- This module is not ready for parsing. --&gt;
+    &lt;!-- This module is partially ready for parsing. --&gt;
+    &lt;!-- This module is ready for parsing. --&gt;</code></pre>
+<p>Each basic unit starts with one of these lines.</p>
+<pre><code>    &lt;!-- ABILITYLEVEL==1. --&gt;
+    &lt;!-- ABILITYLEVEL==2. --&gt;
+    &lt;!-- ABILITYLEVEL==3. --&gt;
+    &lt;!-- ABILITYLEVEL==4. --&gt;
+    &lt;!-- ABILITYLEVEL==5. --&gt;</code></pre>
+<p>The levels above mean the following:</p>
+<ul>
+<li>1 is WB and is included in WB + YB + GB + BB + MBB modules.</li>
+<li>2 is YB and is included in YB + GB + BB + MBB modules.</li>
+<li>3 is GB and is included in GB + BB + MBB modules.</li>
+<li>4 is BB and is included in BB + MBB modules.</li>
+<li>5 is MBB and is included in MBB modules.</li>
+</ul>
+<p>Another way of looking at this is the following:</p>
+<ul>
+<li>A WB module consists of basic units with a “1.”</li>
+<li>A YB module consists of basic units with “1” and “2”.</li>
+<li>A GB module consists of basic units with “1,” “2” and “3.”</li>
+<li>A BB module consists of basic units with “1,” “2,” “3,” and “4.”</li>
+<li>An MBB module consists of basic units with “1,” “2,” “3,” “4,” and “5.”</li>
+</ul>
+<p>A module is assembled with a master sequence unique to that module. (Alex will develop this.) There is only one assembled module of a given name, for example, “box plot”. It can be generated for an appropriate ability or competency level, that is, 1–5.</p>
+</div>
+<div class="slide">
+<h1 id="list">List</h1>
+<p>This is a list with bullets and numbers.</p>
+<ul>
+<li>text.
+<ol type="1">
+<li>text.</li>
+</ol></li>
+<li>text.</li>
+</ul>
+<p>This is a list with multiple paragraphs.</p>
+<ol type="1">
+<li><p>This is the first line of text. texttext texttexttext text texttext texttexttext text texttext texttexttext.</p>
+This is the second line of text with a tab at the start (or four spaces) and a blank line above it. text texttext.</li>
+<li><p>text texttext texttexttext text texttext texttexttext text texttext texttexttext text texttext texttexttext.</p></li>
+</ol>
+<p>This is a list with a blockquote.</p>
+<ul>
+<li><p>texttext texttexttext text texttext texttexttext text texttext texttexttext text texttext texttexttext.</p>
+<blockquote>
+<p>text text text text text text text text text text text text text text text text text text text</p>
+<p>text text text text text text text text text text text text text text text text text text text</p>
+</blockquote></li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="images">Images</h1>
+<p>It is best to use the svg format for images because they will scale automatically. Otherwise scale images to 600 px (700 px maximum).</p>
+<p>Images should have codes, not text, in order to make them usable for multiple languages. If not possible, use English. If it is really necessary to translate, then an image should have a *_en* or *_es* or*_fr* extension to its filename; but this complicates things greatly and should be avoided. Put an explanation or code–text legend below the caption text.</p>
+<p>This is an image.</p>
+<p><code>![caption text](../fot/under_construction.svg)</code></p>
+<figure>
+<img alt="Under construction.  1. person. 2. tool. 3. stuff." src="../fot/under_construction.svg"/><figcaption>Under construction. <br/>1. person. 2. tool. 3. stuff.</figcaption>
+</figure>
+<p>This is a clickable image. It can open to the image, a web page, or download a file.</p>
+<p><code>[![caption text](../fot/under_construction.svg)](process_capability_strategy.html)</code></p>
+<figure><a href="process_capability_strategy.html"><img alt="Under construction.  1. person. 2. tool. 3. stuff." src="../fot/under_construction.svg"/><figcaption>Under construction.  1. person. 2. tool. 3. stuff.</figcaption></a></figure>
+</div>
+<div class="slide">
+<h1 id="equations">Equations</h1>
+<p><span class="math display">\[
+\begin{align}
+    s \pm \text{CI}                          &amp;= \sqrt{\frac{\sum\limits_{i=1}^{n} \left(X_i - \overline{X}\right)^2}{n - 1}} \pm \left(\sqrt{\frac{(n - 1)\,s^{2}}{\chi_{\alpha / 2}^2}},\sqrt{\frac{(n - 1)\,s^{2}}{\chi_{1 - {\alpha / 2}}^2}}\right) \\
+    \text{Lower bound} &amp;= \hat{P}_{pk} - z_{1 - \alpha / 2} \sqrt{\frac{1}{\left(\frac{\text{toler}}{2}\right)^2 n} + \frac{\left(\hat{P}_{pk}\right)^2}{2 \nu}} \\
+    \text{Upper bound} &amp;= \hat{P}_{pk} + z_{1- \alpha / 2} \sqrt{\frac{1}{\left(\frac{\text{toler}}{2}\right)^2 n} + \frac{\left(\hat{P}_{pk}\right)^2}{2 \nu}} \\
+\end{align}
+\]</span></p>
+<p>where:</p>
+<p><span class="math display">\[
+    \begin{align*}
+        n                           &amp; = \text{the number of observations in the sample} \\
+        \nu                         &amp; = \text{the degrees of freedom $= n - 1$} \\
+        \chi_{\alpha \text{,}\nu}^2 &amp; = \text{the $\alpha$ percentile of the chi-square distribution with $\nu$ degrees of freedom} \\
+        \text{toler}                &amp; = \text{multiplier of the standard deviation tolerance (Minitab$^®$ uses 6 as the default value)} \\
+        z_{1 - \alpha / 2}          &amp; = \text{the $1 - \alpha / 2$ percentile of the standard normal distribution} \\
+    \end{align*}
+\]</span></p>
+</div>
+<div class="slide">
+<h1 id="text">Text</h1>
+<ul>
+<li><p><em>italic</em> for emphasis</p>
+<p><code>*italic* for emphasis</code></p></li>
+<li><p><strong>bold</strong> for highlights</p>
+<p><code>**bold** for highlights</code></p></li>
+<li><p><span style="color:red">red</span></p>
+<p><code>&lt;span style="color:red"&gt;red&lt;/span&gt;</code></p></li>
+<li><p><strong><span style="color:green">green</span></strong></p>
+<p><code>**&lt;span style="color:green"&gt;green&lt;/span&gt;**</code></p></li>
+<li><p>Other acceptable colours: blue, red, green, chartreuse, crimson, fuchsia, lime, magenta, orange, violet, and yellow.</p></li>
+<li><p>sub<sub>script</sub></p>
+<p><code>sub~script~</code></p></li>
+<li><p>super<sup>script</sup></p>
+<p><code>super^script^</code></p></li>
+<li>standard colours for my style:
+<ul>
+<li>master black belt. red. #D0103A</li>
+<li>black belt. black. #1E1E1E</li>
+<li>green belt. green. #5B8F22</li>
+</ul></li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="citations">Citations</h1>
+<p>Examples are for citation within text to a reference.</p>
+<ul>
+<li>Text (lastname year).</li>
+<li>Text (lastname year, pp).</li>
+<li>Text (lastname year, pp, pp-pp).</li>
+<li>Text (lastname year, sec. ss).</li>
+<li>Text (lastname year, eq. ##).</li>
+<li>Text (lastname year, vol. VV).</li>
+<li>Text (lastname year, VV:vv).</li>
+<li>Text (lastname year, VV:vv, VV:vv-vv).</li>
+<li>Text (lastname year, ppnx). (where pp is page, n is note, and x is note number</li>
+<li>Text (lastname year, under “insert name of heading in this document”).</li>
+<li>Text (lastname year, t tests are used here).</li>
+<li>Text (lastname year; lastname and lastname year).</li>
+<li>Text (lastname year; lastname and lastname year; lastname, lastname, and lastname year).</li>
+<li>According to lastname (year, pp).</li>
+</ul>
+<p>Example for citation to a note.</p>
+<ul>
+<li><p>Text with citation<sup><a href="#note01">1</a></sup> and link to notes in Notes section.</p>
+<p><code>Text with citation^[1](#note01)^ and link to notes in Notes section.</code></p></li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="table">Table</h1>
+<p>This is a Markdown table.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Column 1</th>
+<th style="text-align: left;">Column 2</th>
+<th style="text-align: left;">Column 3</th>
+<th style="text-align: left;">Column 4</th>
+<th style="text-align: left;">Column 5</th>
+<th style="text-align: left;">Column 6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;">Text</td>
+</tr>
+</tbody>
+</table>
+<p>This is an html table. Use colspan and rowspan tags to merge cells.</p>
+<table>
+<thead>
+<tr>
+<th rowspan="2">
+text
+</th>
+<th>
+text
+</th>
+<th>
+text
+</th>
+<th class="center" colspan="2">
+text
+</th>
+</tr>
+<tr>
+<th>
+text
+</th>
+<th>
+text
+</th>
+<th>
+text
+</th>
+<th>
+text
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+text
+</td>
+<td>
+text
+</td>
+<td>
+text
+</td>
+<td>
+text
+</td>
+<td>
+text
+</td>
+</tr>
+<tr>
+<td>
+text
+</td>
+<td rowspan="2">
+text
+</td>
+<td>
+text
+</td>
+<td>
+text
+</td>
+<td>
+text
+</td>
+</tr>
+<tr class="center">
+<td>
+text
+</td>
+<td colspan="2">
+text
+</td>
+<td>
+text
+</td>
+</tr>
+</tbody>
+</table>
+<p class="quotecaption">
+<br/>table caption
+</p>
+</div>
+<div class="slide">
+<h1 id="links">Links</h1>
+<h2 id="internal-links.">Internal links.</h2>
+<p><a href="#subject-one">subject one</a> | <a href="#subject-two">subject two</a> | <a href="#subject-three">subject three</a> | <a href="#subject-four">subject four</a></p>
+<ul>
+<li>Internal link in html <a href="#understand_anchor_name">text</a></li>
+<li>Internal link in html &lt;a href=“#understand_anchor_name”&gt;text&lt;/a&gt;<br/>
+</li>
+<li>Internal links should always be to an index file, not a specific module.</li>
+</ul>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><p>external link in <a href="index_alpha.html">markdown text</a></p>
+<code>[markdown text](index_alpha.html)</code></li>
+<li><p>external link in html <a href="index_alpha.html">text</a></p>
+<code>&lt;a href="index_alpha.html"&gt;text&lt;/a&gt;</code></li>
+<li><p>external link in html <a href="index_alpha.html#anchor_name">text</a></p>
+<p><code>&lt;a href="index_alpha.html#anchor_name"&gt;text&lt;/a&gt;</code></p></li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="code">Code</h1>
+<p>This is a paragraph with an indented block of code.</p>
+<pre><code>    [link text](link.html)
+    &lt;a href="link"&gt;link text&lt;/a&gt;</code></pre>
+<p>This is a paragraph followed by a list with blocks of code.</p>
+<ul>
+<li><p>item</p>
+<pre><code>[link text](link.html)
+&lt;a href="link"&gt;link text&lt;/a&gt;</code></pre></li>
+<li><p>item</p></li>
+</ul>
+<p>This is a paragraph with block of code.</p>
+<pre><code>[link text](link.html)
+&lt;a href="link"&gt;link text&lt;/a&gt;</code></pre>
+</div>
+<div class="slide">
+<h1 id="lesson-plan">Lesson plan</h1>
+<p>I would create a lesson plan per module only if a customer requested one and paid for it.</p>
+<table>
+<tbody><tr>
+<td>
+<b>Key messages</b>
+</td>
+<td>
+<ul>
+<li class="bullet_left">
+</li>
+<li class="bullet_left">
+</li>
+<li class="bullet_left">
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<b>Time</b>
+</td>
+<td>
+xxhxx – xxhxx (xx minutes)
+</td>
+</tr>
+<tr>
+<td>
+<b>Activities and breakouts</b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Handouts and materials</b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Common mistakes</b>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<b>Additional resources</b>
+</td>
+<td>
+</td>
+</tr>
+</tbody></table>
+<p>If you create a lesson plan it should be a file with the same name as module:</p>
+<ul>
+<li>filename_lesson_en.mkd</li>
+<li>filename_lesson_es.mkd</li>
+<li>filename_lesson_fr.mkd</li>
+</ul>
+</div>
+<div class="slide">
+<h1 id="exercises">Exercises</h1>
+<h2 id="criterion-testct">Criterion test—CT</h2>
+<ul>
+<li>It is a major activity assigned to each ability.</li>
+<li>It is a practice for the learner to try out the entire ability.</li>
+</ul>
+<h2 id="sub-criterion-test-sct">Sub-criterion test — SCT</h2>
+<ul>
+<li>It is the same as a CT for a sub-ability.</li>
+</ul>
+<h2 id="ability">Ability</h2>
+<ul>
+<li>It is a task, which is a unit of work mastered on the job.</li>
+<li>A competency.</li>
+<li>FR. frequency. how often is it performed?</li>
+<li>CR. criticality.</li>
+<li>PT. practice. how and how much.</li>
+<li>LA. learning ability. skill level.</li>
+<li><p>PR. priority. calculated. PR = FR + CR + PT - 3 x LA</p></li>
+<li>To be reall to the learner an ability has to be something done on the job.</li>
+<li>A module is a aunit of training associated with an ability.</li>
+<li><p>A lesson is to teach a sub-ability.</p></li>
+</ul>
+<p>For further details see <a href="performance_model.html">performance model</a>.</p>
+</div>
+<div class="slide">
+<h1 id="notes">Notes</h1>
+<ol type="1">
+<li><p><a id="note01"></a>Ibid., 262. “Quote from the book.”</p>
+<code>&lt;a id="note01"&gt;&lt;/a&gt;Ibid., 262. "Quote from the book."</code></li>
+<li><p><a id="note02"></a>Brief explanatory text.</p>
+<code>&lt;a id="note02"&gt;&lt;/a&gt;Brief explanatory text.</code></li>
+<li><p><a id="note03"></a>Quote with reference.</p>
+<p><code>&lt;a id="note03"&gt;&lt;/a&gt;Quote with reference.</code></p></li>
+</ol>
+</div>
+<div class="slide">
+<h1 id="references">References</h1>
+<h2 id="books">Books</h2>
+<p>Automotive Industry Action Group (AIAG). 2010. <em>Measurement Systems Analysis. Reference Manual</em>. Fourth Edition. Dearborn MI: AIAG.</p>
+<p>George, Michael L. 2002. <em>Lean Six Sigma: Combining Six Sigma Quality with Lean Production Speed</em>. New York: McGraw-Hill Education.</p>
+<p>George, Michael L., John Maxey, David Rowlands, and Mark Price. 2004. <em>The Lean Six Sigma Pocket Toolbook: A Quick Reference Guide to 100 Tools on Improving Quality and Speed.</em> New York: McGraw-Hill.</p>
+<p>Google. 2015. “Average.” Last modified September 27. <a class="uri" href="https://en.wikipedia.org/wiki/Average">https://en.wikipedia.org/wiki/Average</a>.</p>
+<p>NIST. 2013. “A Glossary of DOE Terminology” in <em>NIST/SEMATECH e-Handbook of Statistical Methods</em>. Last modified October 30. <a class="uri" href="http://www.itl.nist.gov/div898/handbook/pri/section7/pri7.htm">http://www.itl.nist.gov/div898/handbook/pri/section7/pri7.htm</a>.</p>
+<p>Picard, Daniel, ed. 2002. <em>The Black Belt Memory Jogger</em>. Salem NH: GOAL/QPC.</p>
+<h2 id="web-page">Web page</h2>
+<p>Authors. Year. “Title of article.” Accessed Month dd. [url](url).</p>
+<p>Google. 2015. “Average.” Last modified September 27. <a class="uri" href="https://en.wikipedia.org/wiki/Average">https://en.wikipedia.org/wiki/Average</a>.</p>
+<p>NIST. 2013. “A Glossary of DOE Terminology” in <em>NIST/SEMATECH e-Handbook of Statistical Methods</em>. Last modified October 30. <a class="uri" href="http://www.itl.nist.gov/div898/handbook/pri/section7/pri7.htm">http://www.itl.nist.gov/div898/handbook/pri/section7/pri7.htm</a>.</p>
+<p><em>Oxford Dictionary</em>. “Scientific method.” New York: Oxford University Press, 2013. Accessed 2013.08.25. <a href="http://oxforddictionaries.com/definition/english/scientific-method">http://oxforddictionaries.com/definition/english/scientific-method</a>.</p>
+<h2 id="other">Other</h2>
+<p>Author. Month dd, Year. E-mail message to what’s-his-name.</p>
+</div>
+
+<div class="slide">
+
+# Colophon #
+
+This document has been designed using Markdown, HTML, CSS, and SVG.<br />
+The text is set in NotoSans. Code is set in DroidSansMono.<br />
+2016.03.29 version 5.<br />
+Gilles Pilon.
+
+</div>
