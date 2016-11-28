@@ -113,3 +113,7 @@ Print_html
                      'statistically, significantly different from ' +
                      'the average of sample 2, ' +
                      'because | t<sub>calculated</sub> | < t<sub>critical</sub> .', raw=True)
+
+# R #
+
+- `%load_ext rpy2.ipython` to add R library. Need to proved this works.
