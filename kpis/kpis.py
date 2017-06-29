@@ -28,6 +28,8 @@ ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')
 plt.plot(commits.datenum, commits.private, marker='o', color="red", linewidth=1.0,          linestyle="-", label="private/", )
 plt.plot(commits.datenum, commits.support, marker='o', color="blue", linewidth=1.0,          linestyle="-", label="support/")
+for i, txt in enumerate( commits.supportnote ):
+    ax.annotate( txt, ( commits.datenum[i] + .5, commits.support[i] + .5 ), color="blue" )
 plt.plot(commits.datenum, commits.jupyter, marker='o', color="green", linewidth=1.0,          linestyle="-", label="jupyter/")
 plt.plot(commits.datenum, commits.tableau, marker='o', color="yellow", linewidth=1.0,          linestyle="-", label="tableau/")
 plt.title(graphtitle + '\n' + graphsubtitle)
