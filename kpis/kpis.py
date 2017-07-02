@@ -17,7 +17,7 @@ total_xmax = commits['datenum'].max()
 
 graphtitle = 'Key Performance Indicator'
 graphsubtitle = 'Git Commits'
-graphylabel = 'Number of commits'
+graphylabel = 'Commits'
 graphxlabel = 'Day'
 
 ax = plt.subplot(111)
