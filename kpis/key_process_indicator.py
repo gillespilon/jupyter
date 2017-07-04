@@ -7,8 +7,16 @@
 #
 # Import the required libraries and modules.
 #
+import os
+# Check current working directory
+current_working_directory = os.getcwd()
+print (current_working_directory)
+# Change directory
+os.chdir("../../../")
+current_working_directory = os.getcwd()
+print (current_working_directory)
 # Read the data file.
-# The file format is csv. There are various columns of daily commits and 
+# The file format is csv. There are various columns of daily commits and
 # labels.
 #
 # Calculate a column of total daily commits.
