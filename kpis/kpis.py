@@ -39,6 +39,8 @@ ax1.legend(frameon=False)
 ax1.figure.savefig('kpi_commits.svg', format='svg')
 ax1.figure.savefig('kpi_commits.pdf', format='pdf')
 
+plt.close()
+
 ax2 = plt.subplot(111)
 commits.plot.line(y='total', ax=ax2, color='blue', \
                   marker='o', markersize='3', label='Total commits')
