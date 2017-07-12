@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 commits = pd.read_csv('kpis.csv', parse_dates=True, index_col='Date')
-commits['total']= commits.Private + commits.Support + commits.Jupyter + commits.Tableau
-commits['total_median'] = commits['total'].median()
+commits['Total']= commits.Private + commits.Support + commits.Jupyter + commits.Tableau
+commits['Median'] = commits['Total'].median()
 
 title = 'Key Performance Indicator'
 subtitle = 'Git Commits'
@@ -45,20 +45,31 @@ ax1.figure.savefig('kpi_commits.pdf', format='pdf')
 # Close the current figure window
 plt.close()
 
+# Create a graph of "total commits v. date"
+
+# Create a single subplot
 ax2 = plt.subplot(111)
-commits.plot.line(y='total', ax=ax2, color='blue', \
-                  marker='o', markersize='3', label='Total commits')
-commits.plot.line(y='total_median', ax=ax2, color="red", \
-         linewidth=1.0, linestyle="-", label='Median')
+# Plot "total commits v. date"
+commits['Total'].plot.line(legend=True, ax=ax2, marker='o', markersize=3).axis('auto')
+commits['Median'].plot.line(legend=True, ax=ax2).axis('auto')
+# Remove the top and right spines
 ax2.spines['right'].set_color('none')
 ax2.spines['top'].set_color('none')
+# Place the ticks outside the axes
 ax2.tick_params(direction='out')
 ax2.xaxis.set_ticks_position('bottom')
 ax2.yaxis.set_ticks_position('left')
+# Add the graph title and subtitle
+#ax2.set_title(r'\textbf{' + title + '}' + '\n' + subtitle)
 ax2.set_title(title + '\n' + subtitle)
+# Add the Y axis label
 ax2.set_ylabel(ylabel)
+# Add the X axis label
 ax2.set_xlabel(xlabel)
+# Set axis properties
 ax2.axis('auto')
+# Remove box around legend
 ax2.legend(frameon=False)
+# Save the graph as svg and pdf
 ax2.figure.savefig('kpi_commits_total.svg', format='svg')
 ax2.figure.savefig('kpi_commits_total.pdf', format='pdf')
