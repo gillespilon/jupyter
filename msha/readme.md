@@ -10,6 +10,8 @@ I will write where to download the data.
 
 ## Methodology
 
+### Mines data munging
+
 I will write the methodology for this repository.
 
 ## License
