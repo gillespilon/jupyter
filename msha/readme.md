@@ -1,16 +1,18 @@
 # Analysis of MSHA mine violations
 
+## In brevi
+
 I will write the purpose for this repository.
 
-# Data
+## Data
 
 I will write where to download the data.
 
-# Methodology
+## Methodology
 
 I will write the methodology for this repository.
 
-# License
+## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>
 
