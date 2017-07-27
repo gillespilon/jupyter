@@ -14,6 +14,10 @@ I will write where to download the data.
 
 I will write the methodology for this repository.
 
+### Mines + violations analysis
+
+I will write the methodology for this repository.
+
 ## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>.
