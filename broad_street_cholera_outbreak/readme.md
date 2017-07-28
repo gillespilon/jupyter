@@ -1,6 +1,8 @@
 # Broad Street Cholera Outbreak of 1854
 
-I will write the purpose for this repository.
+## In brevi
+
+It was a severe outbreak of cholera in 1854 in the Soho district of London, England. The outbreak killed 616 people over one month.
 
 # Data
 
