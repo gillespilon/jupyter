@@ -4,15 +4,15 @@
 
 It was a severe outbreak of cholera in 1854 in the Soho district of London, England. The outbreak killed 616 people over one month.
 
-# Data
+## Data
 
 I will write where to download the data.
 
-# Methodology
+## Methodology
 
 I will write the methodology for this repository.
 
-# License
+## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>
 
