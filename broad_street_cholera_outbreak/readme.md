@@ -2,7 +2,7 @@
 
 ## In brevi
 
-It was a severe outbreak of cholera in 1854 in the Soho district of London, England. The outbreak killed 616 people over one month.
+There was a severe outbreak of cholera in 1854 in the Soho district of London, England, which killed 616 people over one month. Dr. John Snow and Reverence Henry Whitehead linked the outbreak to contaminated water, identified the index case, and stopped the outbreak by having the Broad Street water pump disabled.
 
 ## Data
 
