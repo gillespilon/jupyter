@@ -6,7 +6,7 @@ The United States Department of Labor's Mine Safety and Health Administration (M
 
 ## Data
 
-I will write where to download the data.
+MSHA provides data about its activities. these files are updated every Friday afternoon ([website](https://arlweb.msha.gov/opengovernmentdata/ogimsha.asp)). Download the [mines data set](https://arlweb.msha.gov/opengovernmentdata/DataSets/Mines.zip) and the [violations data set](https://arlweb.msha.gov/opengovernmentdata/DataSets/Violations.zip). Do not unzip. 
 
 ## Methodology
 
