@@ -6,7 +6,11 @@ There was a severe outbreak of cholera in 1854 in the Soho district of London, E
 
 ## Data
 
-I will write where to download the data.
+Download the data sets.
+
+[snow_cholera_deaths.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DSE5NWFZlQXV5VnM)
+
+[snow_cholera_pumps.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DSDd2emxObk9HUDA)
 
 ## Methodology
 
