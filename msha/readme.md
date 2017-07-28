@@ -2,7 +2,7 @@
 
 ## In brevi
 
-I will write the purpose for this repository.
+The United States Department of Labor's Mine Safety and Health Administration (MSHA) "works to prevent death, illness, and injury from mining and promote safe and healthful work places for U.S. miners [website](https://www.msha.gov/about/mission).
 
 ## Data
 
