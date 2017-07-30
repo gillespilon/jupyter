@@ -8,13 +8,13 @@ Francis Anscombe created these four data sets in 1973 to demonstrate the value o
 
 I will write where to download the data.
 
-https://drive.google.com/open?id=0BzrdQfHR2I5DQXNaMU83Yjljb1U
+[anscombes_quartet_1.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DQXNaMU83Yjljb1U).
 
-https://drive.google.com/open?id=0BzrdQfHR2I5DcVE4QlA3OWx0eEE
+[anscombes_quartet_2.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DcVE4QlA3OWx0eEE).
 
-https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28
+[anscombes_quartet_3.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28).
 
-https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc
+[anscombes_quartet_4.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc).
 
 ## Methodology
 
