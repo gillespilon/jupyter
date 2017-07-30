@@ -12,7 +12,7 @@ Download the data sets.
 
 [anscombes_quartet_2.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DcVE4QlA3OWx0eEE). The data form a curved relationship.
 
-[anscombes_quartet_3.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28).
+[anscombes_quartet_3.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28). the data form a linear relationship with very little variation around the regression line, and one severe outlier.
 
 [anscombes_quartet_4.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc).
 
