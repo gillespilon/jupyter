@@ -30,7 +30,7 @@ I will write the methodology for this repository.
 </tr>
 <tr>
 <td>Average of x</td>
-<td>9</td>
+<td align="center">9</td>
 <td>Exact</td>
 </tr>
 <tr>
