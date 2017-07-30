@@ -2,7 +2,7 @@
 
 ## In brevi
 
-I will write the purpose for this repository.
+Francis Anscombe created these four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis. Each graph plots 11 x-y pairs.
 
 ## Data
 
@@ -18,7 +18,7 @@ https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc
 
 ## Methodology
 
-Francis Anscombe created these four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis.
+I will write the methodology for this repository.
 
 ## License
 
