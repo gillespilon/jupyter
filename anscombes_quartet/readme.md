@@ -2,7 +2,7 @@
 
 ## In brevi
 
-Francis Anscombe created these four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis. Each graph plots 11 x-y pairs.
+Francis Anscombe created four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis. Each set of 11 x-y pairs has nearly identical descriptive statistics and different graphical analyses.
 
 ## Data
 
