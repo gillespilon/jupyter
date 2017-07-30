@@ -20,6 +20,10 @@ I will write where to download the data.
 
 I will write the methodology for this repository.
 
+## Descriptive statistics
+
+Work in progress.
+
 ## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>.
