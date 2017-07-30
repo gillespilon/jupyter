@@ -28,6 +28,10 @@ Work in progress.
 
 Work in progress.
 
+## References
+
+Work in progress.
+
 ## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>.
