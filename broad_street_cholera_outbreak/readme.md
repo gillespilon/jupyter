@@ -16,6 +16,10 @@ Download the data sets.
 
 I will write the methodology for this repository.
 
+## References
+
+[John Snow site at UCLA](http://www.ph.ucla.edu/epi/snow.html).
+
 ## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>.
