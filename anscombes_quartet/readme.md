@@ -4,7 +4,7 @@
 
 I will write the purpose for this repository.
 
-# Data
+## Data
 
 I will write where to download the data.
 
@@ -16,11 +16,11 @@ https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28
 
 https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc
 
-# Methodology
+## Methodology
 
 Francis Anscombe created these four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis.
 
-# License
+## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>
 
