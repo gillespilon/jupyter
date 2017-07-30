@@ -35,37 +35,37 @@ I will write the methodology for this repository.
 </tr>
 <tr>
 <td>Sample variance of x</td>
-<td>11</td>
+<td align="center">11</td>
 <td>Exact</td>
 </tr>
 <tr>
 <td>Average of y</td>
-<td>7.50</td>
+<td align="center">7.50</td>
 <td>To 2 decimal places</td>
 </tr>
 <tr>
 <td>Sample variance of y</td>
-<td>4.125</td>
+<td align="center">4.125</td>
 <td>&plusmn; 0.003</td>
 </tr>
 <tr>
 <td>Correlation between x and y</td>
-<td>0.816</td>
+<td align="center">0.816</td>
 <td>To 3 decimal places</td>
 </tr>
 <tr>
 <td>Linear regression line</td>
-<td>y = 3.00 + 0.500 x</td>
+<td align="center">y = 3.00 + 0.500 x</td>
 <td>To 2 and 3 decimal places</td>
 </tr>
 <tr>
 <td>Coefficient of determination of the linear regression</td>
-<td>0.67</td>
+<td align="center">0.67</td>
 <td>To 2 decimal places</td>
 </tr>
 </table>
 
-## Graphical analysis
+##  align="center"Graphical analysis
 
 Work in progress.
 
