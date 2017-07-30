@@ -1,5 +1,7 @@
 # Anscombe's quartet
 
+## In brevi
+
 I will write the purpose for this repository.
 
 # Data
@@ -16,7 +18,7 @@ https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc
 
 # Methodology
 
-I will write the methodology for this repository.
+Francis Anscombe created these four data sets in 1973 to demonstrate the value of graphical analysis before statistical analysis.
 
 # License
 
