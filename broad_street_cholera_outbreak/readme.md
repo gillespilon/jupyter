@@ -8,7 +8,7 @@ There was a severe outbreak of cholera in 1854 in the Soho district of London, E
 
 Download the data sets.
 
-[snow_cholera_deaths.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DSE5NWFZlQXV5VnM)
+[snow_cholera_deaths.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DSE5NWFZlQXV5VnM). The x-y values are the distances in m from the lower left datum of the map. Each pair represents one death. There are 578 values, slightly less than the 616 actual deaths.
 
 [snow_cholera_pumps.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DSDd2emxObk9HUDA)
 
