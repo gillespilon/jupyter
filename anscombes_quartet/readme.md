@@ -6,9 +6,9 @@ Francis Anscombe created four data sets in 1973 to demonstrate the value of grap
 
 ## Data
 
-I will write where to download the data.
+Download the data sets.
 
-[anscombes_quartet_1.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DQXNaMU83Yjljb1U).
+[anscombes_quartet_1.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DQXNaMU83Yjljb1U). The data form a linear relationship with variation around the regression line.
 
 [anscombes_quartet_2.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DcVE4QlA3OWx0eEE).
 
