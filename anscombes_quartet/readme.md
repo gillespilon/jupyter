@@ -14,7 +14,7 @@ Download the data sets.
 
 [anscombes_quartet_3.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DUXljMHRhend6d28). The data form a linear relationship with very little variation around the regression line, and one severe outlier.
 
-[anscombes_quartet_4.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc). 
+[anscombes_quartet_4.csv](https://drive.google.com/open?id=0BzrdQfHR2I5DTzZtUnVrTWJWUmc). The data form a vertical relationship and one extreme outlier.
 
 ## Methodology
 
