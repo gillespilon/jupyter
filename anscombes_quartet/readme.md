@@ -65,7 +65,7 @@ I will write the methodology for this repository.
 </tr>
 </table>
 
-##  align="center"Graphical analysis
+##  Graphical analysis
 
 Work in progress.
 
