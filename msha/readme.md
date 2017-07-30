@@ -12,7 +12,7 @@ MSHA provides data about its activities. these files are updated every Friday af
 
 ### Mines data munging
 
-I will write the methodology for this repository.
+Using the Mines.zip file, a selection of US salt mines is made. This file is considerably smaller (xx rows, yy columns) that the original file (aa rows or more, yy columns). It will be the left table of a join.
 
 ### Mines + violations analysis
 
