@@ -24,6 +24,10 @@ I will write the methodology for this repository.
 
 Work in progress.
 
+## Graphical analysis
+
+Work in progress.
+
 ## License
 
 Copyright (c) 2017 GILLES PILON <gillespilon@gmail.com>.
